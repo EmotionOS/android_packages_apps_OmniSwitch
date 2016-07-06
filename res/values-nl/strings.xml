@@ -21,7 +21,6 @@
     <string name="status_bar_recent_float_item_title">Float View</string>
     <string name="package_stop_task_title">Stop</string>
     <string name="package_inspect_item_title">App info</string>
-
     <string name="start_on_boot_title">Activeren bij opstarten</string>
     <string name="start_on_boot_summary">Activeren tijdens het opstarten van het apparaat</string>
     <string name="opacity_title">Transparantie</string>
@@ -50,7 +49,6 @@
     <string name="favorite_apps_config_summary">Bepaal welke apps in het favorietenoverzicht worden getoond</string>
     <string name="favorite_apps_add_dialog_title">Apps toevoegen</string>
     <string name="favorite_add">Toevoegen\u2026</string>
-
     <string name="reset">Standaard</string>
     <string name="toggle_last_app_help">Naar de laatste app wisselen</string>
     <string name="kill_all_apps_help">Alle apps afsluiten</string>
@@ -148,4 +146,19 @@
     <string name="shortcut_label_toggle_overlay">Overlay in-/uitschakelen</string>
     <string name="adjust_handle_title_new">Sleephandvat instellen</string>
     <string name="adjust_handle_summary">Positie, grootte en kleur instellen</string>
+    <string name="settings_button_text">Instellingen</string>
+    <string name="wallpaper_button_text">Achtergrond</string>
+    <string name="category_launcher_title">Launcher modus</string>
+    <string name="launcher_mode_summary">Gebruik OmniSwitch ook als je launcher. Druk op Home na het inschakelen en kies voor OmniSwitch</string>
+    <string name="launcher_mode_title">Inschakelen</string>
+    <string name="launcher_mode_enable_check">Uitschakelen niet mogelijk als de launcher modus actief is. Zal weer worden ingeschakeld als de launcher modus actief wordt</string>
+    <string name="welcome_cling_header">Welkom bij de OmniSwitch launcher modus</string>
+    <string name="welcome_cling_description">Veel plezier bij het gebruik van een minimalistische launcher die de nadruk legt op het starten van en schakelen tussen apps. Veeg om OmniSwitch te openen.</string>
+    <string name="welcome_cling_dismiss">Begrepen</string>
+    <string name="launch_stats_title">Start-statistieken</string>
+    <string name="launch_stats_summary">Verzamel statistieken over gestarte apps. Data zal niet worden gedeeld en alleen lokaal worden opgeslagen</string>
+    <string name="launch_stats_delete_title">Wis statistieken</string>
+    <string name="launch_stats_delete_summary">Verwijder huidige verzamelde statistieken</string>
+    <string name="favorite_apps_config_stat_title">Statistiek favorieten</string>
+    <string name="favorite_apps_config_stat_summary">Maak een favorietenlijst op basis van de verzamelde start-statistieken</string>
 </resources>
