@@ -150,5 +150,23 @@
   <string name="shortcut_label_toggle_overlay">Überlagerung umschalten</string>
   <string name="adjust_handle_title_new">Ziehgriff konfigurieren</string>
   <string name="adjust_handle_summary">Position, Größe und Farbe konfigurieren</string>
+  <string name="settings_button_text">Einstellungen</string>
+  <string name="wallpaper_button_text">Hintergrundbild</string>
+  <string name="category_launcher_title">\"Launcher\"-Modus</string>
+  <string name="launcher_mode_summary">Benutze OmniSwitch als Startseite. Nach der Aktivierung \"Home\" drücken und OmniSwitch wählen</string>
+  <string name="launcher_mode_title">Aktivieren</string>
+  <string name="launcher_mode_enable_check">Eine Deaktivierung ist unmöglich, wenn der \"Launcher\"-Modus aktiv ist. Erst wieder möglich, wenn der \"Launcher\"-Modus verfügbar ist.</string>
+  <string name="welcome_cling_header">Willkommen zum \"Launcher\"-Modus von OmniSwitch</string>
+  <string name="welcome_cling_description">Habe Spaß bei der Nutzung einer minimalistischen Startseite, die den Fokus auf den Start und das Umschalten von Apps legt. Wische irgendwo, um OmniSwitch zu öffnen.</string>
+  <string name="welcome_cling_dismiss">Verstanden</string>
+  <string name="launch_stats_title">Start-Statistiken</string>
+  <string name="launch_stats_summary">Sammelt Statistiken über gestartete Apps. Es werden keine Daten weitergegeben, sondern nur lokal gespeichert</string>
+  <string name="launch_stats_delete_title">Statistiken löschen</string>
+  <string name="launch_stats_delete_summary">Löscht die bis jetzt gesammelten Start-Statistiken</string>
+  <string name="favorite_apps_config_stat_title">Favoriten nach Statistik</string>
+  <string name="favorite_apps_config_stat_summary">Erstellt eine Favoritenliste für Apps auf Basis der gesammelten Start-Statistiken</string>
+  <string name="launch_stats_delete_notice">Start-Statistiken gelöscht</string>
+  <string name="launch_stats_low_title">Favoriten verwalten</string>
+  <string name="launch_stats_low_notice">Ungenügende Daten zur Erstellung der Favoritenliste für Apps. Wollen Sie wirklich fortfahren?</string>
 
 </resources>
