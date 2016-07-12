@@ -1194,8 +1194,6 @@ public abstract class AbstractSwitchLayout implements ISwitchLayout {
 
     @Override
     public void shutdownService() {
-        // remember on reboot
-        storeExpandedFavoritesState();
     }
 
     protected void storeExpandedFavoritesState() {
