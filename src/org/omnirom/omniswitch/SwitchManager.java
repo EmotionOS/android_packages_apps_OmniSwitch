@@ -19,6 +19,7 @@ package org.omnirom.omniswitch;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -604,5 +605,9 @@ public class SwitchManager {
         } catch (RemoteException e) {
         }
         return 2;
+    }
+
+    public void revertRecents() {
+        Collections.reverse(mLoadedTasks);
     }
 }
