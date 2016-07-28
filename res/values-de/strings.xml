@@ -168,5 +168,6 @@
   <string name="launch_stats_delete_notice">Start-Statistiken gelöscht</string>
   <string name="launch_stats_low_title">Favoriten verwalten</string>
   <string name="launch_stats_low_notice">Ungenügende Daten zur Erstellung der Favoritenliste für Apps. Wollen Sie wirklich fortfahren?</string>
-
+  <string name="revert_recents_summary">Anwendungsverlauf von unten auffüllen</string>
+  <string name="revert_recents_title">Anwendungsverlauf zurücksetzen</string>
 </resources>
