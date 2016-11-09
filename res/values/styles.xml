@@ -36,7 +36,8 @@
     <style name="TextAppearancePopupMenuCondensed" parent="@android:style/TextAppearance.Material.Menu" >
         <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
-    <style name="LauncherTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+    <!--<style name="LauncherTheme" parent="@android:style/Theme.Material.DayNight.NoActionBar.TranslucentDecor">-->
+    <style name="LauncherTheme" parent="@android:style/Theme.Material.DayNight.NoActionBar">
         <!-- NoTitle -->
         <item name="android:windowNoTitle">true</item>
         <!-- wallpaper -->
