@@ -48,7 +48,6 @@ import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Switch;
@@ -186,6 +185,8 @@ public class SettingsActivity extends PreferenceActivity implements
 
         addPreferencesFromResource(R.xml.recents_settings);
 
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+
         mEnable = (SwitchPreference) findPreference(PREF_ENABLE);
         mEnable.setChecked(SwitchService.isRunning() && mPrefs.getBoolean(SettingsActivity.PREF_ENABLE, false));
         mEnable.setOnPreferenceChangeListener(this);
@@ -267,6 +268,18 @@ public class SettingsActivity extends PreferenceActivity implements
         };
 
         updatePrefs(mPrefs, null);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected (MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private class ButtonsApplyRunnable implements CheckboxListDialog.ApplyRunnable {
