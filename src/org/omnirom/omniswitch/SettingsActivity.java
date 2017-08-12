@@ -503,19 +503,6 @@ public class SettingsActivity extends PreferenceActivity implements
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.hide_app:
-                boolean checked = item.isChecked();
-                item.setChecked(!checked);
-                setAppIconEnabled(checked);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
-
     public void setAppIconEnabled(boolean enabled) {
         int newState;
         PackageManager pm = getPackageManager();
