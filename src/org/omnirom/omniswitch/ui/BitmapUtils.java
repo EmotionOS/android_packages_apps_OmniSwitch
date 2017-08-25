@@ -278,11 +278,4 @@ public class BitmapUtils {
         image.draw(canvas);
         return new BitmapDrawable(resources, bmResult);
     }
-
-    public static void clearCachedColors() {
-        sTextPaint = null;
-        sLockedAppsPaint = null;
-        sDockedAppsPaint = null;
-        sDefaultBgPaint = null;
-    }
 }
